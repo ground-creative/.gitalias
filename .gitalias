@@ -1,17 +1,20 @@
-# A collection of shortcuts for git
+### A collection of shortcuts for git ###########################
+#
 # Version 1.0
 #
+# Installation Instructions
 # Add the following 2 lines to your .git/config file
 # [include]
 #  path = ../.gitalias
-
+#
+################################################
 [alias]
 
 	current = rev-parse --abbrev-ref HEAD					# get current branch
 
 	rebuild-tags = !git tag -l | xargs git tag -d && git fetch -t	# rebuild local tags from remote
    
-	last-com = log -1 HEAD --stat							# show last commit
+	last-com = log -1 HEAD --stat						# show last commit
 	
 	list-alias = config --get-regexp alias					# show list of alias
 	
@@ -54,7 +57,7 @@
 	# add,commit and push all changes, params: commit message (opional, the last commit will be used if not set)
 	push-all = "!f() {\
 		if [ $1 ]; then\
-			git com-all \"$1\";\
+			git com-all $1;\
 		else\
 			git com-all;\
 		fi;\
