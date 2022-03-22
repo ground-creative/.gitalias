@@ -21,9 +21,13 @@ git current
 ```
 rebuild local tags from remote
 ```
-rebuild-tags
+git rebuild-tags
 ```
 show last commit
 ```
-last-com
+git last-com
 ```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
