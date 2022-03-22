@@ -39,7 +39,7 @@
 		fi;\
 	}; f"
 	
-	omming = "!f() {\
+	omm = "!f() {\
 		echo \"\\033[33m- Adding Commit with all modifications\\033[0m\";\
 		if [ $1 ]; then\
 			echo \"\\033[36m\"'-- Command: git commit -am \"'\"$1\"'\"'\"\\033[0m\";\
