@@ -15,24 +15,13 @@ Add the following 2 lines to your .git/config file
 
 ## Shortcuts list
 
-get current branch
-```
-git current
-```
-rebuild local tags from remote
-```
-git rebuild-tags
-```
-show last commit
-```
-git last-com
-```
 | Command  | Explanation |
 | ------------- | ------------- |
 | git current | get current branch |
 | git rebuild-tags  | rebuild local tags from remote  |
-| git rebuild-tags  | rebuild local tags from remote  |
+| git list-alias  | show list of alias  |
 | git last-com | show last commit  |
-| git rebuild-tags  | rebuild local tags from remote  |
-| git rebuild-tags  | rebuild local tags from remote  |
-| git rebuild-tags  | rebuild local tags from remote  |
+| git unchanged | assumed unchanged |
+| git no-unchanged  | reverse assumed unchanged  |
+| git list-branches  | list all branches  |
+| git show-com  | show list of commits, params: number of commits (optional) |
