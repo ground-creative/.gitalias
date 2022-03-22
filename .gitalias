@@ -1,4 +1,4 @@
-### A collection of shortcuts for git ###########################
+### A collection of shortcuts for git ########################################################
 #
 # Version 1.0
 #
@@ -7,16 +7,16 @@
 # [include]
 #  path = ../.gitalias
 #
-################################################
+##############################################################################
 [alias]
 
 	current = rev-parse --abbrev-ref HEAD					# get current branch
 
-	rebuild-tags = !git tag -l | xargs git tag -d && git fetch -t	# rebuild local tags from remote
-   
-	last-com = log -1 HEAD --stat						# show last commit
+	rebuild-tags = !git tag -l | xargs git tag -d && git fetch -t		# rebuild local tags from remote
 	
-	list-alias = config --get-regexp alias					# show list of alias
+	last-com = log -1 HEAD --stat							# show last commit
+	
+	list-alias = config --get-regexp alias						# show list of alias
 	
 	no-unchanged = "!f() { git update-index --no-assume-unchanged $1; }; f"
 	
