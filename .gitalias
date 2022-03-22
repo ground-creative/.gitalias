@@ -49,6 +49,7 @@
 			echo \"\\033[36m-- Command: git commit -a --reuse-message=HEAD\\033[0m\";\
 			git commit -a --reuse-message=HEAD;\
 		fi;\
+		git commit -am \"$1\";\
 	}; f"
 	
 	# add,commit and push all changes, params: commit message (opional, the last commit will be used if not set)
