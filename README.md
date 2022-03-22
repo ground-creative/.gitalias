@@ -27,7 +27,12 @@ show last commit
 ```
 git last-com
 ```
-| First Header  | Second Header |
+| Command  | Explanation |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| git current | get current branch |
+| git rebuild-tags  | rebuild local tags from remote  |
+| git rebuild-tags  | rebuild local tags from remote  |
+| git last-com | show last commit  |
+| git rebuild-tags  | rebuild local tags from remote  |
+| git rebuild-tags  | rebuild local tags from remote  |
+| git rebuild-tags  | rebuild local tags from remote  |
