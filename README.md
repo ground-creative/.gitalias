@@ -1,7 +1,7 @@
 # A collection of shortcuts for git
 
 ## Installation
-
+ 
 Download the file to your  local repository
 ```
 wget https://raw.githubusercontent.com/ground-creative/.gitalias/main/.gitalias
