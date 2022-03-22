@@ -12,7 +12,7 @@ Add the following 2 lines to your .git/config file
 [include]
 	path = ../.gitalias
 ```
-
+ 
 ## Shortcuts list
 
 | Command  | Explanation |
