@@ -19,3 +19,11 @@ get current branch
 ```
 git current
 ```
+rebuild local tags from remote
+```
+rebuild-tags
+```
+show last commit
+```
+last-com
+```
