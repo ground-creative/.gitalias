@@ -31,3 +31,4 @@ Add the following 2 lines to your .git/config file
 | git show-cmd | *show config details<br>examples: "git show-cmd" "git show-cmd alias" "git show-cmd alias push"* |
 | git update-release  | *update latest release files from current branch*  |
 | git upgrade-script  | *upgrade the script*  |
+| git delete-branch  | delete branch/tag<br>params: branch/tag name (optional the last tag will deleted if not set)*  |
