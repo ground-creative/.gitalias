@@ -25,10 +25,10 @@ Add the following 2 lines to your .git/config file
 | git no-unchanged | *reverse assumed unchanged* |
 | git list-branches  | *list all branches*  |
 | git show-com  | *show list of commits<br>params: number of commits (optional)* |
-| git uncom  | *reset commit<br>params: commit id (optional, the last id will be used if empty)* |
+| git uncom  | *reset commit<br>**params:** commit id (optional, the last id will be used if empty)* |
 | git com-all | *add and commit all changes<br>params: commit message (opional, the last commit will be used if not set)* |
 | git push-all | *add, commit and push all changes<br>params: commit message (opional, the last commit will be used if not set)* |
 | git show-cmd | *show config details<br>examples: "git show-cmd" "git show-cmd alias" "git show-cmd alias push"* |
 | git update-release  | *update latest release files from current branch*  |
 | git upgrade-script  | *upgrade the script*  |
-| git delete-branch  | delete branch/tag<br>params: branch/tag name (optional the last tag will deleted if not set)*  |
+| git delete-branch  | *delete branch/tag<br>params: branch/tag name (optional the last tag will deleted if not set)*  |
