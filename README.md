@@ -4,7 +4,7 @@
  
 Download the file to your  local repository
 ``` 
-wget https://raw.githubusercontent.com/ground-creative/.gitalias/main/.gitalias
+wget https://raw.githubusercontent.com/ground-creative/.gitalias/main/.gitalias -O .gitalias 
 ```
  
 Add the following 2 lines to your .git/config file
