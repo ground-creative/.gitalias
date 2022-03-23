@@ -30,3 +30,4 @@ Add the following 2 lines to your .git/config file
 | git push-all | *add, commit and push all changes<br>params: commit message (opional, the last commit will be used if not set)* |
 | git show-cmd | *show config details<br>examples: "git show-cmd" "git show-cmd alias" "git show-cmd alias push"* |
 | git update-release  | *update latest release files from current branch*  |
+| git upgrade-script  | *upgrade the script*  |
