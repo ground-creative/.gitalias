@@ -44,7 +44,6 @@
 
 	# add and commit all changes, params: commit message (opional, the last commit will be used if not set)
 	com-all = "!f() {\
-		echo $1;\
 		echo \"\\033[33m- Adding Commit with all modifications\\033[0m\";\
 		if [ \"$1\" ]; then\
 			echo \"\\033[36m\"'-- Command: git commit -am \"'\"$1\"'\"'\"\\033[0m\";\
@@ -58,7 +57,7 @@
 	# add,commit and push all changes, params: commit message (opional, the last commit will be used if not set)
 	push-all = "!f() {\
 		if [ \"$1\" ]; then\
-			git com-all $1;\
+			git com-all \"$1\";\
 		else\
 			git com-all;\
 		fi;\
