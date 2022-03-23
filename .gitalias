@@ -56,7 +56,7 @@
 	
 	# add,commit and push all changes, params: commit message (opional, the last commit will be used if not set)
 	push-all = "!f() {\
-		if [ $1 ]; then\
+		if [ \"$1\" ]; then\
 			git com-all $1;\
 		else\
 			git com-all;\
